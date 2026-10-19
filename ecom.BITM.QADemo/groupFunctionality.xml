@@ -7,7 +7,7 @@
 </groups>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoMyOrdersPositive"/>
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive"/>
       <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive"/>
       <class name="ecom.BITM.QADemoCartscript.QADemoCartPositive"/>
       <class name="ecom.BITM.QADemoLoginscript.QADemoLoginPositive"/>
