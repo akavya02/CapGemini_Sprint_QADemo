@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Open Database Connectivity]]>
+    </line>
+    <line>
+      <![CDATA[pre-condition]]>
+    </line>
+    <line>
+      <![CDATA[Before Class]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page opened]]>
+    </line>
+    <line>
+      <![CDATA[Order confirmed successfully]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login credentials entered]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page opened]]>
+    </line>
+    <line>
+      <![CDATA[Smoke passed: all Checkout elements are displayed]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Before Method]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product is in the cart]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart opened]]>
+    </line>
+    <line>
+      <![CDATA[Continued shopping successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to checkout page]]>
+    </line>
+    <line>
+      <![CDATA[Order confirmed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful]]>
+    </line>
+    <line>
+      <![CDATA[After Method]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+    <line>
+      <![CDATA[post-condition]]>
+    </line>
+    <line>
+      <![CDATA[Close - DataBase Connectivity]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-19T23:52:36 IST" name="Default suite" finished-at="2026-10-19T23:52:55 IST" duration-ms="18654">
+    <groups>
+      <group name="Integration">
+        <method signature="QADemoCheckoutPositive.verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifyCompleteOrderPlacement" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+        <method signature="QADemoCheckoutPositive.verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifybackwardnavigation" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+      </group> <!-- Integration -->
+      <group name="Functionality">
+        <method signature="QADemoCheckoutPositive.verifyLoginAndProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifyLoginAndProductCatalog" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+      </group> <!-- Functionality -->
+      <group name="Smoke">
+        <method signature="QADemoCheckoutPositive.verifyLoginAndProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifyLoginAndProductCatalog" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="QADemoCheckoutPositive.verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifyCompleteOrderPlacement" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2026-10-19T23:52:36 IST" name="Default test" finished-at="2026-10-19T23:52:55 IST" duration-ms="18654">
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
+        <test-method is-config="true" signature="bS()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:36 IST" name="bS" finished-at="2026-10-19T23:52:36 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open Database Connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bS -->
+        <test-method is-config="true" signature="bT()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:36 IST" name="bT" finished-at="2026-10-19T23:52:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[pre-condition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bT -->
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:36 IST" name="bC" finished-at="2026-10-19T23:52:37 IST" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Before Class]]>
+            </line>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bC -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:38 IST" name="bM" finished-at="2026-10-19T23:52:39 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:39 IST" name="verifyCompleteOrderPlacement" data-provider="checkoutdata" finished-at="2026-10-19T23:52:44 IST" duration-ms="5684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09/28]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ammuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page opened]]>
+            </line>
+            <line>
+              <![CDATA[Order confirmed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteOrderPlacement -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:44 IST" name="aM" finished-at="2026-10-19T23:52:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:44 IST" name="bM" finished-at="2026-10-19T23:52:45 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifyLoginAndProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:45 IST" name="verifyLoginAndProductCatalog" data-provider="systemData" finished-at="2026-10-19T23:52:48 IST" duration-ms="3220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login credentials entered]]>
+            </line>
+            <line>
+              <![CDATA[Checkout page opened]]>
+            </line>
+            <line>
+              <![CDATA[Smoke passed: all Checkout elements are displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginAndProductCatalog -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:48 IST" name="aM" finished-at="2026-10-19T23:52:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:48 IST" name="bM" finished-at="2026-10-19T23:52:48 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bM -->
+        <test-method signature="verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:48 IST" name="verifybackwardnavigation" data-provider="checkoutdata" finished-at="2026-10-19T23:52:54 IST" duration-ms="6117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ammu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gandhinagar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4242 4242 4242 4242]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09/28]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ammuu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product is in the cart]]>
+            </line>
+            <line>
+              <![CDATA[Shopping cart opened]]>
+            </line>
+            <line>
+              <![CDATA[Continued shopping successfully]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to checkout page]]>
+            </line>
+            <line>
+              <![CDATA[Order confirmed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybackwardnavigation -->
+        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:54 IST" name="aM" finished-at="2026-10-19T23:52:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aM -->
+        <test-method is-config="true" signature="aC()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:54 IST" name="aC" finished-at="2026-10-19T23:52:55 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aC -->
+        <test-method is-config="true" signature="aT()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:55 IST" name="aT" finished-at="2026-10-19T23:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[post-condition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aT -->
+        <test-method is-config="true" signature="aS()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:55 IST" name="aS" finished-at="2026-10-19T23:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close - DataBase Connectivity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aS -->
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

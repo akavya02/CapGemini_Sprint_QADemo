@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QADemo Cross Browser Suite]">
+  <test thread-count="5" name="Firefox Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
+        <methods>
+          <include name="verifybackwardnavigation" invocation-numbers="0"/>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+          <include name="verifyCompleteOrderPlacement" invocation-numbers="0"/>
+          <include name="verifyLoginAndProductCatalog" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive -->
+      <class name="ecom.BITM.QADemoCartscript.QADemoCartPositive">
+        <methods>
+          <include name="bS"/>
+          <include name="bC"/>
+          <include name="aS"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="verifyProceedToCheckout" invocation-numbers="0"/>
+          <include name="aM"/>
+          <include name="verifyProductAddedToCart" invocation-numbers="0"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoCartscript.QADemoCartPositive -->
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="verifyProductCatalog" invocation-numbers="0"/>
+          <include name="aM"/>
+          <include name="verifyProductAddedToCart" invocation-numbers="0"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoProductscript.QADemoProductpositive -->
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+        <methods>
+          <include name="verifyContinueShopping" invocation-numbers="0"/>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="verifyMyOrders" invocation-numbers="0"/>
+          <include name="aC"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+</suite> <!-- Failed suite [QADemo Cross Browser Suite] -->
