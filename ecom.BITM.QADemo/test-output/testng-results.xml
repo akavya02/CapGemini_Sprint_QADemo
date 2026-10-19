@@ -83,7 +83,7 @@
       <![CDATA[Close - DataBase Connectivity]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-19T23:52:36 IST" name="Default suite" finished-at="2026-10-19T23:52:55 IST" duration-ms="18654">
+  <suite started-at="2026-10-20T00:51:56 IST" name="Default suite" finished-at="2026-10-20T00:52:16 IST" duration-ms="20355">
     <groups>
       <group name="Integration">
         <method signature="QADemoCheckoutPositive.verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifyCompleteOrderPlacement" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
@@ -99,23 +99,23 @@
         <method signature="QADemoCheckoutPositive.verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" name="verifyCompleteOrderPlacement" class="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive"/>
       </group> <!-- System -->
     </groups>
-    <test started-at="2026-10-19T23:52:36 IST" name="Default test" finished-at="2026-10-19T23:52:55 IST" duration-ms="18654">
+    <test started-at="2026-10-20T00:51:56 IST" name="Default test" finished-at="2026-10-20T00:52:16 IST" duration-ms="20355">
       <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
-        <test-method is-config="true" signature="bS()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:36 IST" name="bS" finished-at="2026-10-19T23:52:36 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="bS()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:51:56 IST" name="bS" finished-at="2026-10-20T00:51:56 IST" duration-ms="16" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Database Connectivity]]>
             </line>
           </reporter-output>
         </test-method> <!-- bS -->
-        <test-method is-config="true" signature="bT()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:36 IST" name="bT" finished-at="2026-10-19T23:52:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="bT()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:51:56 IST" name="bT" finished-at="2026-10-20T00:51:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[pre-condition]]>
             </line>
           </reporter-output>
         </test-method> <!-- bT -->
-        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:36 IST" name="bC" finished-at="2026-10-19T23:52:37 IST" duration-ms="1364" status="PASS">
+        <test-method is-config="true" signature="bC(java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:51:56 IST" name="bC" finished-at="2026-10-20T00:51:58 IST" duration-ms="2196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,14 +132,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- bC -->
-        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:38 IST" name="bM" finished-at="2026-10-19T23:52:39 IST" duration-ms="602" status="PASS">
+        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:00 IST" name="bM" finished-at="2026-10-20T00:52:00 IST" duration-ms="474" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- bM -->
-        <test-method signature="verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:39 IST" name="verifyCompleteOrderPlacement" data-provider="checkoutdata" finished-at="2026-10-19T23:52:44 IST" duration-ms="5684" status="PASS">
+        <test-method signature="verifyCompleteOrderPlacement(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:00 IST" name="verifyCompleteOrderPlacement" data-provider="checkoutdata" finished-at="2026-10-20T00:52:06 IST" duration-ms="5266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,21 +202,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyCompleteOrderPlacement -->
-        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:44 IST" name="aM" finished-at="2026-10-19T23:52:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:06 IST" name="aM" finished-at="2026-10-20T00:52:06 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- aM -->
-        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:44 IST" name="bM" finished-at="2026-10-19T23:52:45 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:06 IST" name="bM" finished-at="2026-10-20T00:52:06 IST" duration-ms="154" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- bM -->
-        <test-method signature="verifyLoginAndProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:45 IST" name="verifyLoginAndProductCatalog" data-provider="systemData" finished-at="2026-10-19T23:52:48 IST" duration-ms="3220" status="PASS">
+        <test-method signature="verifyLoginAndProductCatalog(java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:06 IST" name="verifyLoginAndProductCatalog" data-provider="systemData" finished-at="2026-10-20T00:52:09 IST" duration-ms="3061" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,21 +241,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginAndProductCatalog -->
-        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:48 IST" name="aM" finished-at="2026-10-19T23:52:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:09 IST" name="aM" finished-at="2026-10-20T00:52:09 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- aM -->
-        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:48 IST" name="bM" finished-at="2026-10-19T23:52:48 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="bM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:09 IST" name="bM" finished-at="2026-10-20T00:52:09 IST" duration-ms="149" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- bM -->
-        <test-method signature="verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:48 IST" name="verifybackwardnavigation" data-provider="checkoutdata" finished-at="2026-10-19T23:52:54 IST" duration-ms="6117" status="PASS">
+        <test-method signature="verifybackwardnavigation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:09 IST" name="verifybackwardnavigation" data-provider="checkoutdata" finished-at="2026-10-20T00:52:16 IST" duration-ms="6322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -327,28 +327,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifybackwardnavigation -->
-        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:54 IST" name="aM" finished-at="2026-10-19T23:52:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="aM()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:16 IST" name="aM" finished-at="2026-10-20T00:52:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method]]>
             </line>
           </reporter-output>
         </test-method> <!-- aM -->
-        <test-method is-config="true" signature="aC()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:54 IST" name="aC" finished-at="2026-10-19T23:52:55 IST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="aC()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:16 IST" name="aC" finished-at="2026-10-20T00:52:16 IST" duration-ms="329" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- aC -->
-        <test-method is-config="true" signature="aT()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:55 IST" name="aT" finished-at="2026-10-19T23:52:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="aT()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:16 IST" name="aT" finished-at="2026-10-20T00:52:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[post-condition]]>
             </line>
           </reporter-output>
         </test-method> <!-- aT -->
-        <test-method is-config="true" signature="aS()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-19T23:52:55 IST" name="aS" finished-at="2026-10-19T23:52:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="aS()[pri:0, instance:ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@5542c4ed]" started-at="2026-10-20T00:52:16 IST" name="aS" finished-at="2026-10-20T00:52:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close - DataBase Connectivity]]>

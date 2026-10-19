@@ -102,7 +102,8 @@ public class QADemoOrderplacedPositive extends BaseClass {
         checkout.getCheckoutHeading();
         checkout.shippingInfo(firstName, lastName, shippingAddress);
         checkout.paymentInfo(cardNumber, expiryDate, cvv, nameOnCard);
-        checkout.getPlaceOrderButton().click();
+//        checkout.getPlaceOrderButton().click();
+        checkout.clickPlaceOrderButton();
         Assert.assertTrue(wait.until(ExpectedConditions.visibilityOf(order.getOrderConfirmedMessage())).isDisplayed(),"Order confirmation was not displayed");
         Reporter.log("Order confirmed successfully", true);
         order.getProfilebutton().click();

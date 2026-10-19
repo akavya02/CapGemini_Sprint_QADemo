@@ -2,10 +2,13 @@ package ecom.BITM.QADemo.POM;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class QADemoCheckoutpage {
@@ -117,6 +120,23 @@ public class QADemoCheckoutpage {
 		cvvField.sendKeys(CVV);
 		nameOnCardField.clear();
 		nameOnCardField.sendKeys(NameonCard);
+	}
+	public void clickPlaceOrderButton() {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+	    WebElement button = wait.until(
+	        ExpectedConditions.visibilityOfElementLocated(
+	            By.xpath("//button[@data-testid='place-order-button']")
+	        )
+	    );
+
+	    ((JavascriptExecutor) driver).executeScript(
+	        "arguments[0].scrollIntoView({block: 'center'});", button
+	    );
+
+	    wait.until(ExpectedConditions.elementToBeClickable(button));
+
+	    button.click();
 	}
 
 }

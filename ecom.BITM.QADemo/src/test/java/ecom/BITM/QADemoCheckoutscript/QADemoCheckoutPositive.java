@@ -160,7 +160,7 @@ public class QADemoCheckoutPositive extends BaseClass {
     	    Reporter.log("Navigated to checkout page", true);
     	    checkout.shippingInfo(firstName, lastName, shippingAddress);
     	    checkout.paymentInfo(cardNumber, expiryDate, cvv, nameOnCard);
-    	    wait.until(ExpectedConditions.elementToBeClickable(checkout.getPlaceOrderButton())).click();
+    	    checkout.clickPlaceOrderButton();
     	    Assert.assertTrue(wait.until(ExpectedConditions.visibilityOf(order.getOrderConfirmedMessage())).isDisplayed(),"Order confirmation message is not displayed");
     	    Reporter.log("Order confirmed successfully", true);
     	    wait.until(ExpectedConditions.elementToBeClickable(order.getLogoutButton())).click();
