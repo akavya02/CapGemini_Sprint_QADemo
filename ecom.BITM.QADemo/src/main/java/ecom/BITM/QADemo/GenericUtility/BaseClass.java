@@ -35,7 +35,7 @@ public class BaseClass {
 
 	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
-	public void bC(@Optional("edge")String browser)throws Exception {
+	public void bC(@Optional("chrome")String browser)throws Exception {
 		Reporter.log("Before Class",true);
 		driver = wu.launchBrowser(browser);
 		Reporter.log(browser,true);
