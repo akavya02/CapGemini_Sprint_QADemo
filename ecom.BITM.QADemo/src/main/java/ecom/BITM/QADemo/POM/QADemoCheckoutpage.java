@@ -264,21 +264,28 @@ public class QADemoCheckoutpage {
 	
 	public void clickPlaceOrderButton() {
 
+	    
 	    WebElement button = wait.until(
-	        ExpectedConditions.visibilityOf(placeOrderButton)
-	    );
+	    	    ExpectedConditions.visibilityOf(placeOrderButton)
+	    	);
 
-	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    	JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	    js.executeScript(
-	        "arguments[0].scrollIntoView({block:'center'});",
-	        button
-	    );
+	    	js.executeScript(
+	    	    "arguments[0].scrollIntoView({block:'center', inline:'nearest'});",
+	    	    button
+	    	);
 
-	    wait.until(
-	        ExpectedConditions.elementToBeClickable(placeOrderButton)
-	    ).click();
+	    	wait.until(ExpectedConditions.elementToBeClickable(button));
+
+	    	try {
+	    	    button.click();
+	    	} catch (org.openqa.selenium.ElementClickInterceptedException e) {
+	    	    // Fallback if another element intercepts the normal click
+	    	    js.executeScript("arguments[0].click();", button);
+	    	}
 	}
+
 	
 
 

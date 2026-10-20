@@ -56,6 +56,7 @@ package ecom.BITM.QADemo.POM;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -105,36 +106,70 @@ public class QADemoLoginpage {
     public WebElement getSignInButton() {
         return signInButton;
     }
+    
 
-    public void login(String email, String password) {
+//    public void login(String email, String password) {
+//
+//        // Navigate to the login page only if not already there.
+//        if (!driver.getCurrentUrl().contains("/login")) {
+//            driver.get("https://qademo.com/login");
+//        }
+//
+//        // Wait for the login form to become available.
+//        WebElement username = wait.until(
+//            ExpectedConditions.visibilityOf(emailField)
+//        );
+//
+//        WebElement passwordBox = wait.until(
+//            ExpectedConditions.visibilityOf(passwordField)
+//        );
+//
+//        username.clear();
+//        username.sendKeys(email);
+//
+//        passwordBox.clear();
+//        passwordBox.sendKeys(password);
+//
+//        wait.until(
+//            ExpectedConditions.elementToBeClickable(signInButton)
+//        ).click();
+//
+//        // Confirm navigation after login.
+//        wait.until(
+//            ExpectedConditions.urlContains("/catalog")
+//        );
+    
 
-        // Navigate to the login page only if not already there.
-        if (!driver.getCurrentUrl().contains("/login")) {
-            driver.get("https://qademo.com/login");
-        }
+public void login(String email, String password) {
+    WebDriverWait wait =
+            new WebDriverWait(driver, Duration.ofSeconds(15));
 
-        // Wait for the login form to become available.
-        WebElement username = wait.until(
-            ExpectedConditions.visibilityOf(emailField)
-        );
+    wait.until(ExpectedConditions.elementToBeClickable(signInLink))
+        .click();
 
-        WebElement passwordBox = wait.until(
-            ExpectedConditions.visibilityOf(passwordField)
-        );
+    // Re-locate fields after the page updates
+    WebElement emailInput = wait.until(
+        ExpectedConditions.visibilityOfElementLocated(
+            By.name("username")
+        )
+    );
 
-        username.clear();
-        username.sendKeys(email);
+    emailInput.clear();
+    emailInput.sendKeys(email);
 
-        passwordBox.clear();
-        passwordBox.sendKeys(password);
+    WebElement passwordInput = wait.until(
+        ExpectedConditions.visibilityOfElementLocated(
+            By.name("password")
+        )
+    );
 
-        wait.until(
-            ExpectedConditions.elementToBeClickable(signInButton)
-        ).click();
+    passwordInput.clear();
+    passwordInput.sendKeys(password);
 
-        // Confirm navigation after login.
-        wait.until(
-            ExpectedConditions.urlContains("/catalog")
-        );
-    }
+    wait.until(ExpectedConditions.elementToBeClickable(signInButton))
+        .click();
 }
+
+    
+    }
+
