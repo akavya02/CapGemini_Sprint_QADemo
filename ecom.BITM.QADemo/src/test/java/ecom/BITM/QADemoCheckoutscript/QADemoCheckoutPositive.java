@@ -106,7 +106,8 @@ public class QADemoCheckoutPositive extends BaseClass {
             checkout.shippingInfo(firstName,lastName,shippingAddress);
             checkout.paymentInfo(cardNumber,expiryDate,cvv,nameOnCard);
 
-            wait.until(ExpectedConditions.elementToBeClickable(checkout.getPlaceOrderButton())).click();
+            //wait.until(ExpectedConditions.elementToBeClickable(checkout.getPlaceOrderButton())).click();
+            checkout.clickPlaceOrderButton();
             Assert.assertTrue(wait.until(ExpectedConditions.visibilityOf(order.getOrderConfirmedMessage())).isDisplayed(),"Order confirmation message is not displayed");
             Reporter.log("Order confirmed successfully", true);
             order.getLogoutButton().click();

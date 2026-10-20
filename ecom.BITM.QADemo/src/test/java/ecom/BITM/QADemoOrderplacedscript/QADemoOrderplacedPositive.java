@@ -113,7 +113,8 @@ public class QADemoOrderplacedPositive extends BaseClass {
         Reporter.log("My Orders page displayed", true);
         order.getOrderDetailsLink().click();
         Reporter.log("Order details page opened", true);
-        order.getOrderspagecontinueshopping().click();
+        //order.getOrderspagecontinueshopping().click();
+        order.clickContinueShopping();
         wait.until(ExpectedConditions.urlContains("/catalog"));
         Assert.assertTrue(wait.until(ExpectedConditions.visibilityOf(product.getProductCatalogHeading())).isDisplayed(),"Product Catalog heading is not displayed");
         Reporter.log("Continue Shopping opened Product Catalog successfully",true);

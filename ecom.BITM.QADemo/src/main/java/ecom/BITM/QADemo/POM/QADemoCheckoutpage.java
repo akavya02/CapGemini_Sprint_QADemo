@@ -270,39 +270,14 @@ public class QADemoCheckoutpage {
 
 	    JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	    // Scroll the document close to the bottom
-	    js.executeScript(
-	        "window.scrollTo(0, document.documentElement.scrollHeight);"
-	    );
-
-	    // Wait briefly for the page layout to settle
-	    wait.until(d -> {
-	        Number top = (Number) ((JavascriptExecutor) d)
-	            .executeScript(
-	                "return arguments[0].getBoundingClientRect().top;",
-	                button
-	            );
-
-	        return top.doubleValue() < d.manage()
-	            .window().getSize().getHeight();
-	    });
-
-	    // Scroll the button to the center
 	    js.executeScript(
 	        "arguments[0].scrollIntoView({block:'center'});",
 	        button
 	    );
 
-	    // Verify the actual position
-	    System.out.println("Button position after scrolling: " +
-	        js.executeScript(
-	            "return arguments[0].getBoundingClientRect().top;",
-	            button
-	        ));
-
-	    // Use Selenium's normal click
-	    wait.until(ExpectedConditions.elementToBeClickable(button));
-	    button.click();
+	    wait.until(
+	        ExpectedConditions.elementToBeClickable(placeOrderButton)
+	    ).click();
 	}
 	
 

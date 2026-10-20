@@ -124,9 +124,11 @@ public class QADemoOrderplacedpage {
 		return myorderslink;
 	}
 
-	public WebElement getMyorderstext() {
-		return wait.until(ExpectedConditions.visibilityOf(orderspagecontinueshopping));
-	}
+    public WebElement getMyorderstext() {
+        return wait.until(
+            ExpectedConditions.visibilityOf(myorderspage)
+        );
+    }
 
 	public WebElement getOrderConfirmedMessage() {
 		return orderConfirmedMessage;
