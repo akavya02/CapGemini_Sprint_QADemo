@@ -33,18 +33,15 @@ public class Crossbrowsertesting {
             driver = new ChromeDriver(settings);
         }
 
-        else if (browser.equalsIgnoreCase("edge")) {
+     else if (browser.equalsIgnoreCase("edge")) {
+        EdgeOptions settings = new EdgeOptions();
 
-            EdgeOptions settings = new EdgeOptions();
+        settings.addArguments("--disable-extensions");
+        settings.addArguments("--no-first-run");
+        settings.addArguments("--disable-background-mode");
 
-            settings.addArguments("--start-maximized");
-            settings.addArguments("--force-device-scale-factor=0.8");
-
-            driver = new EdgeDriver(settings);
-            driver.manage().window().maximize();
-
-        }
-
+        driver = new EdgeDriver(settings);
+    }
         else if (browser.equalsIgnoreCase("firefox")) {
 
             FirefoxOptions options = new FirefoxOptions();
