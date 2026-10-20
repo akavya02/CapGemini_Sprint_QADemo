@@ -35,11 +35,6 @@ public class Crossbrowsertesting {
 
      else if (browser.equalsIgnoreCase("edge")) {
         EdgeOptions settings = new EdgeOptions();
-
-        settings.addArguments("--disable-extensions");
-        settings.addArguments("--no-first-run");
-        settings.addArguments("--disable-background-mode");
-
         driver = new EdgeDriver(settings);
     }
         else if (browser.equalsIgnoreCase("firefox")) {
