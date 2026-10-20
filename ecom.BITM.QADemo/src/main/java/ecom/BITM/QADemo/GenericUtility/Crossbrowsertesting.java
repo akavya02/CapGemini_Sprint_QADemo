@@ -41,6 +41,8 @@ public class Crossbrowsertesting {
             settings.addArguments("--force-device-scale-factor=0.8");
 
             driver = new EdgeDriver(settings);
+            driver.manage().window().maximize();
+
         }
 
         else if (browser.equalsIgnoreCase("firefox")) {
