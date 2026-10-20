@@ -42,25 +42,13 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 
-//	@BeforeMethod(alwaysRun = true)
-//	public void bM() throws Exception {
-//		Reporter.log("Before Method",true);
-//		driver.get(fu.getDataFromPropertyFile("url"));
-//
-//	}
 	@BeforeMethod(alwaysRun = true)
-    public void bM() throws Exception {
-        Reporter.log("Before Method", true);
+	public void bM() throws Exception {
+		Reporter.log("Before Method",true);
+		driver.get(fu.getDataFromPropertyFile("url"));
 
-        if (driver != null) {
-            driver.get(fu.getDataFromPropertyFile("url"));
-        } else {
-            Reporter.log(
-                "Browser was not initialized. Cannot open URL.",
-                true
-            );
-        }
-    }
+	}
+	
 
 
 	@AfterMethod(alwaysRun = true)
@@ -69,20 +57,12 @@ public class BaseClass {
 	    
 	}
 
-//	@AfterClass(alwaysRun = true)
-//	public void aC() {
-//		driver.quit();
-//		Reporter.log("Close Browser", true);
-//	}
 	@AfterClass(alwaysRun = true)
-    public void aC() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
-        }
-
-        Reporter.log("Close Browser", true);
-    }
+	public void aC() {
+		driver.quit();
+		Reporter.log("Close Browser", true);
+	}
+	
 
 	@AfterTest
 	public void aT() {
