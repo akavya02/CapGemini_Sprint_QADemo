@@ -55,7 +55,8 @@ public class QADemoCheckoutNegative extends BaseClass {
 
         Reporter.log("Checkout fields left empty", true);
 
-        wait.until(ExpectedConditions.elementToBeClickable(checkout.getPlaceOrderButton())).click();
+//        wait.until(ExpectedConditions.elementToBeClickable(checkout.getPlaceOrderButton())).click();
+        checkout.clickPlaceOrderButton();
         Reporter.log("Place Order button clicked", true);
         Assert.assertTrue(driver.getCurrentUrl().contains("/checkout"),"Checkout was submitted despite empty required fields");
         Reporter.log("Negative Checkout Test Passed: User remains on checkout",true);
