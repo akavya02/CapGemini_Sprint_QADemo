@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [QADemo Cross Browser Suite]">
-  <test thread-count="5" name="edge Tests(failed)">
-    <parameter name="browser" value="edge"/>
+<suite thread-count="3" parallel="classes" name="Failed suite [QADemo Parallel Suite]">
+  <test thread-count="3" parallel="classes" name="QADemo Tests(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive">
         <methods>
           <include name="bC"/>
           <include name="bS"/>
-          <include name="verifyMyOrders" invocation-numbers="0"/>
           <include name="aC"/>
           <include name="bT"/>
           <include name="aS"/>
           <include name="aT"/>
+          <include name="verifySignUp" invocation-numbers="0"/>
           <include name="aM"/>
           <include name="bM"/>
         </methods>
-      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupPositive -->
     </classes>
-  </test> <!-- edge Tests(failed) -->
-</suite> <!-- Failed suite [QADemo Cross Browser Suite] -->
+  </test> <!-- QADemo Tests(failed) -->
+</suite> <!-- Failed suite [QADemo Parallel Suite] -->

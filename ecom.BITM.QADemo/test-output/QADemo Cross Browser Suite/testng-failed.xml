@@ -6,6 +6,7 @@
     <classes>
       <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
         <methods>
+          <include name="verifyContinueShopping" invocation-numbers="0"/>
           <include name="bC"/>
           <include name="bS"/>
           <include name="verifyMyOrders" invocation-numbers="0"/>
@@ -19,4 +20,23 @@
       </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
     </classes>
   </test> <!-- edge Tests(failed) -->
+  <test thread-count="5" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+        <methods>
+          <include name="bC"/>
+          <include name="bS"/>
+          <include name="verifyContinueShopping" invocation-numbers="0"/>
+          <include name="verifyMyOrders" invocation-numbers="0"/>
+          <include name="aC"/>
+          <include name="bT"/>
+          <include name="aS"/>
+          <include name="aT"/>
+          <include name="aM"/>
+          <include name="bM"/>
+        </methods>
+      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+    </classes>
+  </test> <!-- Chrome Tests(failed) -->
 </suite> <!-- Failed suite [QADemo Cross Browser Suite] -->
