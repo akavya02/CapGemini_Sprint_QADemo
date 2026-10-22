@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 20 14:54:25 IST 2026</td>
+<td>Started on:</td><td>Thu Oct 22 21:08:11 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>111 seconds (111463 ms)</td>
+<tr><td>Total time:</td><td>150 seconds (150571 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,23 +76,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ecom.BITM.QADemoSignupscript.QADemoSignupPositive.verifySignUp()'><b>verifySignUp</b><br>Test class: ecom.BITM.QADemoSignupscript.QADemoSignupPositive<br>Parameters: ammu, 98978, Ammu@123, Ammu@123<br/>
-<a href="#Output-1890499822" onClick='toggleBox("Output-1890499822", this, "Show output", "Hide output");'>Show output</a>
+<td title='ecom.BITM.QADemoLoginscript.QADemoLoginPositive.verifyLogin()'><b>verifyLogin</b><br>Test class: ecom.BITM.QADemoLoginscript.QADemoLoginPositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-1197981223" onClick='toggleBox("Output-1197981223", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1890499822" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1890499822">
-Sign-up form submitted with positive data<br/>
+<a href="#Output-1197981223" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1197981223">
+Login successful. Product Catalog is displayed.<br/>
 </div>
 </td>
 <td></td>
 <td>4</td>
-<td>ecom.BITM.QADemoSignupscript.QADemoSignupPositive@20d525</td></tr>
+<td>ecom.BITM.QADemoLoginscript.QADemoLoginPositive@7bedc48a</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoLoginscript.QADemoLoginNegative.verifyInvalidLogin()'><b>verifyInvalidLogin</b><br>Test class: ecom.BITM.QADemoLoginscript.QADemoLoginNegative<br>Parameters: , <br/>
+<a href="#Output-2124224284" onClick='toggleBox("Output-2124224284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2124224284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2124224284">
+Starting Negative Login Test<br/>
+Login page initialized<br/>
+Invalid credentials entered<br/>
+Negative login test passed: Invalid credentials did not open the catalog<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.BITM.QADemoLoginscript.QADemoLoginNegative@131ef10</td></tr>
 <tr>
 <td title='ecom.BITM.QADemoSignupscript.QADemoSignupNegative.verifySignUp()'><b>verifySignUp</b><br>Test class: ecom.BITM.QADemoSignupscript.QADemoSignupNegative<br>Parameters: ammu, 98978, Ammu@123, Ammu@123<br/>
-<a href="#Output-503130110" onClick='toggleBox("Output-503130110", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1523691893" onClick='toggleBox("Output-1523691893", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-503130110" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-503130110">
+<a href="#Output-1523691893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523691893">
 Negative test passes: Signup failed with invalid credentials <br/>
 </div>
 </td>
@@ -100,55 +115,110 @@ Negative test passes: Signup failed with invalid credentials <br/>
 <td>4</td>
 <td>ecom.BITM.QADemoSignupscript.QADemoSignupNegative@6200f9cb</td></tr>
 <tr>
-<td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative.verifyCheckoutWithEmptyDetails()'><b>verifyCheckoutWithEmptyDetails</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative<br>Parameters: standard_user, standard123,       ,      ,         ,          ,          ,        ,           <br/>
-<a href="#Output-558453549" onClick='toggleBox("Output-558453549", this, "Show output", "Hide output");'>Show output</a>
+<td title='ecom.BITM.QADemoLoginscript.QADemoLoginPositive.verifyLoginProductCartIntegration()'><b>verifyLoginProductCartIntegration</b><br>Test class: ecom.BITM.QADemoLoginscript.QADemoLoginPositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-1991686867" onClick='toggleBox("Output-1991686867", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-558453549" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-558453549">
-Login successful<br/>
-Product added to cart<br/>
-Checkout page opened<br/>
-Checkout fields left empty<br/>
-Place Order button clicked<br/>
-Negative Checkout Test Passed: User remains on checkout<br/>
+<a href="#Output-1991686867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1991686867">
+Login successful. Product Catalog opened.<br/>
+Product Catalog verified successfully<br/>
+Shopping Cart page opened successfully<br/>
+Login and Cart Integration Test Passed<br/>
 </div>
 </td>
 <td></td>
-<td>4</td>
-<td>ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative@37ceb1df</td></tr>
+<td>6</td>
+<td>ecom.BITM.QADemoLoginscript.QADemoLoginPositive@7bedc48a</td></tr>
 <tr>
-<td title='ecom.BITM.QADemoCartscript.QADemoCartPositive.verifyProceedToCheckout()'><b>verifyProceedToCheckout</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartPositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-901681944" onClick='toggleBox("Output-901681944", this, "Show output", "Hide output");'>Show output</a>
+<td title='ecom.BITM.QADemoCartscript.QADemoCartNegative.verifyProductIncrease()'><b>verifyProductIncrease</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartNegative<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-1501493528" onClick='toggleBox("Output-1501493528", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-901681944" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-901681944">
-Navigated to Checkout Page Successfully<br/>
-Logout successful<br/>
+<a href="#Output-1501493528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501493528">
+Negative test passed: Empty cart does not show any product<br/>
 </div>
 </td>
 <td></td>
-<td>4</td>
-<td>ecom.BITM.QADemoCartscript.QADemoCartPositive@2df3b89c</td></tr>
+<td>2</td>
+<td>ecom.BITM.QADemoCartscript.QADemoCartNegative@23348b5d</td></tr>
 <tr>
 <td title='ecom.BITM.QADemoCartscript.QADemoCartPositive.verifyProductAddedToCart()'><b>verifyProductAddedToCart</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartPositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-938056719" onClick='toggleBox("Output-938056719", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1357379723" onClick='toggleBox("Output-1357379723", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-938056719" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-938056719">
+<a href="#Output-1357379723" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1357379723">
 Navigated to Cart Page Successfully<br/>
 Cart cleared successfully<br/>
 Logout successful<br/>
 </div>
 </td>
 <td></td>
-<td>2</td>
+<td>4</td>
 <td>ecom.BITM.QADemoCartscript.QADemoCartPositive@2df3b89c</td></tr>
 <tr>
-<td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive.verifybackwardnavigation()'><b>verifybackwardnavigation</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive<br>Parameters: standard_user, standard123, Ammu, Reddy, Gandhinagar, 4242 4242 4242 4242, 09/28, 123, Ammuu<br/>
-<a href="#Output-19068298" onClick='toggleBox("Output-19068298", this, "Show output", "Hide output");'>Show output</a>
+<td title='ecom.BITM.QADemoCartscript.QADemoCartPositive.verifyProceedToCheckout()'><b>verifyProceedToCheckout</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartPositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-73059509" onClick='toggleBox("Output-73059509", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-19068298" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-19068298">
+<a href="#Output-73059509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-73059509">
+Navigated to Checkout Page Successfully<br/>
+Logout successful<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecom.BITM.QADemoCartscript.QADemoCartPositive@2df3b89c</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive.verifyContinueShopping()'><b>verifyContinueShopping</b><br>Test class: ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive<br>Parameters: standard_user, standard123, Ammu, Reddy, Gandhinagar, 4242 4242 4242 4242, 09/28, 123, Ammuu<br/>
+<a href="#Output-1661968670" onClick='toggleBox("Output-1661968670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661968670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661968670">
+Login successful<br/>
+Order confirmed successfully<br/>
+My Orders page displayed<br/>
+Order details page opened<br/>
+Continue Shopping opened Product Catalog successfully<br/>
+Logout successful<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive@7c9d8e2</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoSignupscript.QADemoSignupPositive.signUpPageSmokeTest()'><b>signUpPageSmokeTest</b><br>Test class: ecom.BITM.QADemoSignupscript.QADemoSignupPositive<br/>
+<a href="#Output-1513587684" onClick='toggleBox("Output-1513587684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1513587684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1513587684">
+Smoke: verify Sign Up page elements<br/>
+Clicked Sign Up link<br/>
+Smoke passed: all Sign Up elements are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.BITM.QADemoSignupscript.QADemoSignupPositive@20d525</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoProductscript.QADemoProductpositive.verifyProductCatalog()'><b>verifyProductCatalog</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductpositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-122751012" onClick='toggleBox("Output-122751012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-122751012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-122751012">
+Login credentials entered<br/>
+Login successful<br/>
+Product Catalog displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.BITM.QADemoProductscript.QADemoProductpositive@55b0dcab</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive.verifybackwardnavigation()'><b>verifybackwardnavigation</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive<br>Parameters: standard_user, standard123, Ammu, Reddy, Gandhinagar, 4242 4242 4242 4242, 09/28, 123, Ammuu<br/>
+<a href="#Output-1181946054" onClick='toggleBox("Output-1181946054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1181946054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1181946054">
 Login successful<br/>
 Product is in the cart<br/>
 Shopping cart opened<br/>
@@ -162,74 +232,23 @@ Logout successful<br/>
 <td>8</td>
 <td>ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@70325e14</td></tr>
 <tr>
-<td title='ecom.BITM.QADemoProductscript.QADemoProductpositive.verifyProductCatalog()'><b>verifyProductCatalog</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductpositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-822082387" onClick='toggleBox("Output-822082387", this, "Show output", "Hide output");'>Show output</a>
+<td title='ecom.BITM.QADemoSignupscript.QADemoSignupPositive.verifySignUp()'><b>verifySignUp</b><br>Test class: ecom.BITM.QADemoSignupscript.QADemoSignupPositive<br>Parameters: ammu, 98978, Ammu@123, Ammu@123<br/>
+<a href="#Output-153431634" onClick='toggleBox("Output-153431634", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-822082387" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-822082387">
-Login credentials entered<br/>
-Login successful<br/>
-Product Catalog displayed successfully<br/>
+<a href="#Output-153431634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-153431634">
+Sign-up form submitted with positive data<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>ecom.BITM.QADemoProductscript.QADemoProductpositive@55b0dcab</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoLoginscript.QADemoLoginPositive.verifyLogin()'><b>verifyLogin</b><br>Test class: ecom.BITM.QADemoLoginscript.QADemoLoginPositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-80682690" onClick='toggleBox("Output-80682690", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-80682690" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-80682690">
-Login successful. Product Catalog is displayed.<br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>ecom.BITM.QADemoLoginscript.QADemoLoginPositive@7bedc48a</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoCartscript.QADemoCartPositive.verifyCountinueShopping()'><b>verifyCountinueShopping</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartPositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-1144527317" onClick='toggleBox("Output-1144527317", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1144527317" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1144527317">
-Continued shopping successfully<br/>
-Logout successful<br/>
-</div>
-</td>
-<td></td>
-<td>4</td>
-<td>ecom.BITM.QADemoCartscript.QADemoCartPositive@2df3b89c</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoProductscript.QADemoProductNegative.verifyProductAddedToCart()'><b>verifyProductAddedToCart</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductNegative<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-1207644362" onClick='toggleBox("Output-1207644362", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1207644362" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1207644362">
-Negative test passed: Product was not added without clicking Add to Car<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>ecom.BITM.QADemoProductscript.QADemoProductNegative@38afe297</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoCartscript.QADemoCartNegative.verifyProductIncrease()'><b>verifyProductIncrease</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartNegative<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-1698898608" onClick='toggleBox("Output-1698898608", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1698898608" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1698898608">
-Negative test passed: Empty cart does not show any product<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>ecom.BITM.QADemoCartscript.QADemoCartNegative@23348b5d</td></tr>
+<td>5</td>
+<td>ecom.BITM.QADemoSignupscript.QADemoSignupPositive@20d525</td></tr>
 <tr>
 <td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive.verifyCompleteOrderPlacement()'><b>verifyCompleteOrderPlacement</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive<br>Parameters: standard_user, standard123, Ammu, Reddy, Gandhinagar, 4242 4242 4242 4242, 09/28, 123, Ammuu<br/>
-<a href="#Output-1913881824" onClick='toggleBox("Output-1913881824", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1683046409" onClick='toggleBox("Output-1683046409", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1913881824" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1913881824">
+<a href="#Output-1683046409" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1683046409">
 Login successful<br/>
 Product added to cart<br/>
 Checkout page opened<br/>
@@ -237,113 +256,26 @@ Order confirmed successfully<br/>
 </div>
 </td>
 <td></td>
-<td>5</td>
+<td>7</td>
 <td>ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@70325e14</td></tr>
 <tr>
-<td title='ecom.BITM.QADemoSignupscript.QADemoSignupPositive.signUpPageSmokeTest()'><b>signUpPageSmokeTest</b><br>Test class: ecom.BITM.QADemoSignupscript.QADemoSignupPositive<br/>
-<a href="#Output-434993054" onClick='toggleBox("Output-434993054", this, "Show output", "Hide output");'>Show output</a>
+<td title='ecom.BITM.QADemoProductscript.QADemoProductNegative.verifyProductAddedToCart()'><b>verifyProductAddedToCart</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductNegative<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-944780041" onClick='toggleBox("Output-944780041", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-434993054" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-434993054">
-Smoke: verify Sign Up page elements<br/>
-Clicked Sign Up link<br/>
-Smoke passed: all Sign Up elements are displayed<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>ecom.BITM.QADemoSignupscript.QADemoSignupPositive@20d525</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoLoginscript.QADemoLoginPositive.verifyLoginProductCartIntegration()'><b>verifyLoginProductCartIntegration</b><br>Test class: ecom.BITM.QADemoLoginscript.QADemoLoginPositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-1326405365" onClick='toggleBox("Output-1326405365", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1326405365" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1326405365">
-Login successful. Product Catalog opened.<br/>
-Product Catalog verified successfully<br/>
-Shopping Cart page opened successfully<br/>
-Login and Cart Integration Test Passed<br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>ecom.BITM.QADemoLoginscript.QADemoLoginPositive@7bedc48a</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoProductscript.QADemoProductpositive.verifyProductAddedToCart()'><b>verifyProductAddedToCart</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductpositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-551871103" onClick='toggleBox("Output-551871103", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-551871103" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-551871103">
-Sucessfully added product added in cart<br/>
+<a href="#Output-944780041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-944780041">
+Negative test passed: Product was not added without clicking Add to Car<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>ecom.BITM.QADemoProductscript.QADemoProductpositive@55b0dcab</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive.verifyContinueShopping()'><b>verifyContinueShopping</b><br>Test class: ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive<br>Parameters: standard_user, standard123, Ammu, Reddy, Gandhinagar, 4242 4242 4242 4242, 09/28, 123, Ammuu<br/>
-<a href="#Output-1336401756" onClick='toggleBox("Output-1336401756", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1336401756" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1336401756">
-Login successful<br/>
-Order confirmed successfully<br/>
-My Orders page displayed<br/>
-Order details page opened<br/>
-Continue Shopping opened Product Catalog successfully<br/>
-Logout successful<br/>
-</div>
-</td>
-<td></td>
-<td>12</td>
-<td>ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive@7c9d8e2</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive.verifyLoginAndProductCatalog()'><b>verifyLoginAndProductCatalog</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-1770576916" onClick='toggleBox("Output-1770576916", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1770576916" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1770576916">
-Login credentials entered<br/>
-Checkout page opened<br/>
-Smoke passed: all Checkout elements are displayed<br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@70325e14</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoProductscript.QADemoProductpositive.verifyProduct()'><b>verifyProduct</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductpositive<br>Parameters: standard_user, standard123<br/>
-<a href="#Output-1536199789" onClick='toggleBox("Output-1536199789", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1536199789" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1536199789">
-Product Bluetooth Speaker displayed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>ecom.BITM.QADemoProductscript.QADemoProductpositive@55b0dcab</td></tr>
-<tr>
-<td title='ecom.BITM.QADemoLoginscript.QADemoLoginNegative.verifyInvalidLogin()'><b>verifyInvalidLogin</b><br>Test class: ecom.BITM.QADemoLoginscript.QADemoLoginNegative<br>Parameters: , <br/>
-<a href="#Output-259484490" onClick='toggleBox("Output-259484490", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-259484490" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-259484490">
-Starting Negative Login Test<br/>
-Login page initialized<br/>
-Invalid credentials entered<br/>
-Negative login test passed: Invalid credentials did not open the catalog<br/>
-</div>
-</td>
-<td></td>
-<td>4</td>
-<td>ecom.BITM.QADemoLoginscript.QADemoLoginNegative@131ef10</td></tr>
+<td>ecom.BITM.QADemoProductscript.QADemoProductNegative@38afe297</td></tr>
 <tr>
 <td title='ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive.verifyMyOrders()'><b>verifyMyOrders</b><br>Test class: ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive<br>Parameters: standard_user, standard123, Ammu, Reddy, Gandhinagar, 4242 4242 4242 4242, 09/28, 123, Ammuu<br/>
-<a href="#Output-1315649684" onClick='toggleBox("Output-1315649684", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-311009043" onClick='toggleBox("Output-311009043", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1315649684" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1315649684">
+<a href="#Output-311009043" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-311009043">
 Login successful<br/>
 Product added to cart<br/>
 Order confirmed successfully<br/>
@@ -352,8 +284,76 @@ Logout successful<br/>
 </div>
 </td>
 <td></td>
-<td>12</td>
+<td>20</td>
 <td>ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive@7c9d8e2</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoProductscript.QADemoProductpositive.verifyProduct()'><b>verifyProduct</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductpositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-1929957683" onClick='toggleBox("Output-1929957683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929957683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929957683">
+Product Bluetooth Speaker displayed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.BITM.QADemoProductscript.QADemoProductpositive@55b0dcab</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative.verifyCheckoutWithEmptyDetails()'><b>verifyCheckoutWithEmptyDetails</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative<br>Parameters: standard_user, standard123,       ,      ,         ,          ,          ,        ,           <br/>
+<a href="#Output-129503875" onClick='toggleBox("Output-129503875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-129503875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-129503875">
+Login successful<br/>
+Product added to cart<br/>
+Checkout page opened<br/>
+Checkout fields left empty<br/>
+Place Order button clicked<br/>
+Negative Checkout Test Passed: User remains on checkout<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>ecom.BITM.QADemoCheckoutscript.QADemoCheckoutNegative@37ceb1df</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoCartscript.QADemoCartPositive.verifyCountinueShopping()'><b>verifyCountinueShopping</b><br>Test class: ecom.BITM.QADemoCartscript.QADemoCartPositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-2115270696" onClick='toggleBox("Output-2115270696", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2115270696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2115270696">
+Continued shopping successfully<br/>
+Logout successful<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>ecom.BITM.QADemoCartscript.QADemoCartPositive@2df3b89c</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive.verifyLoginAndProductCatalog()'><b>verifyLoginAndProductCatalog</b><br>Test class: ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-216687255" onClick='toggleBox("Output-216687255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-216687255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-216687255">
+Login credentials entered<br/>
+Checkout page opened<br/>
+Smoke passed: all Checkout elements are displayed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive@70325e14</td></tr>
+<tr>
+<td title='ecom.BITM.QADemoProductscript.QADemoProductpositive.verifyProductAddedToCart()'><b>verifyProductAddedToCart</b><br>Test class: ecom.BITM.QADemoProductscript.QADemoProductpositive<br>Parameters: standard_user, standard123<br/>
+<a href="#Output-472467991" onClick='toggleBox("Output-472467991", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-472467991" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-472467991">
+Sucessfully added product added in cart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ecom.BITM.QADemoProductscript.QADemoProductpositive@55b0dcab</td></tr>
 </table><p>
 </body>
 </html>

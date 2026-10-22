@@ -4,19 +4,19 @@
   <test thread-count="3" parallel="classes" name="QADemo Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="ecom.BITM.QADemoSignupscript.QADemoSignupPositive">
+      <class name="ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive">
         <methods>
           <include name="bC"/>
           <include name="bS"/>
+          <include name="verifybackwardnavigation" invocation-numbers="0"/>
           <include name="aC"/>
           <include name="bT"/>
           <include name="aS"/>
           <include name="aT"/>
-          <include name="verifySignUp" invocation-numbers="0"/>
           <include name="aM"/>
           <include name="bM"/>
         </methods>
-      </class> <!-- ecom.BITM.QADemoSignupscript.QADemoSignupPositive -->
+      </class> <!-- ecom.BITM.QADemoCheckoutscript.QADemoCheckoutPositive -->
     </classes>
   </test> <!-- QADemo Tests(failed) -->
 </suite> <!-- Failed suite [QADemo Parallel Suite] -->
