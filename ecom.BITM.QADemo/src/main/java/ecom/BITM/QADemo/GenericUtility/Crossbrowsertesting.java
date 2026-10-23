@@ -33,12 +33,27 @@ public class Crossbrowsertesting {
             driver = new ChromeDriver(settings);
         }
 
-     else if (browser.equalsIgnoreCase("edge")) {
-        EdgeOptions settings = new EdgeOptions();
-        settings.addArguments("--force-device-scale-factor=0.8");
+//     else if (browser.equalsIgnoreCase("edge")) {
+//        EdgeOptions settings = new EdgeOptions();
+//        settings.addArguments("--force-device-scale-factor=0.8");
+//
+//        driver = new EdgeDriver(settings);
+//    }
+        else if (browser.equalsIgnoreCase("edge")) {
 
-        driver = new EdgeDriver(settings);
-    }
+            EdgeOptions settings = new EdgeOptions();
+
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put("autofill.credit_card_enabled", false);
+            prefs.put("profile.password_manager_leak_detection", false);
+
+            settings.setExperimentalOption("prefs", prefs);
+
+            settings.addArguments("--start-maximized");
+            settings.addArguments("--force-device-scale-factor=0.8");
+
+            driver = new EdgeDriver(settings);
+        }
         else if (browser.equalsIgnoreCase("firefox")) {
 
             FirefoxOptions options = new FirefoxOptions();
