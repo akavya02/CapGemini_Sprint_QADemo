@@ -3,20 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive">
+      <class name="ecom.BITM.QADemoProductscript.QADemoProductpositive">
         <methods>
           <include name="bC"/>
           <include name="bS"/>
-          <include name="verifyContinueShopping" invocation-numbers="0"/>
-          <include name="verifyMyOrders"/>
           <include name="aC"/>
           <include name="bT"/>
           <include name="aS"/>
+          <include name="verifyProduct" invocation-numbers="0"/>
           <include name="aT"/>
           <include name="aM"/>
           <include name="bM"/>
         </methods>
-      </class> <!-- ecom.BITM.QADemoOrderplacedscript.QADemoOrderplacedPositive -->
+      </class> <!-- ecom.BITM.QADemoProductscript.QADemoProductpositive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

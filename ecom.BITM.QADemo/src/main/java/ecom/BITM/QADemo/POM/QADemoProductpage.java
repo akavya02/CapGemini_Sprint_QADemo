@@ -100,8 +100,8 @@ public class QADemoProductpage {
 
     @FindBy(xpath = "//a[@data-testid='navbar-cart-link']")
     private WebElement cartIcon;
-
-    @FindBy(xpath = "//p[@data-testid='product-description-4']")
+    
+    @FindBy(xpath = "//p[@data-testid='product-description-7']")
     private WebElement product;
 
     @FindBy(xpath = "//button[@data-testid='product-add-to-cart-button']")

@@ -47,8 +47,8 @@ public class QADemoProductpositive extends BaseClass {
 		login.login(Username, Password);
 		wait.until(ExpectedConditions.urlContains("/catalog"));
 		product.getProduct().click();
-		Assert.assertEquals(driver.getCurrentUrl().contains("products/bluetooth-speaker"), true);
-		Reporter.log("Product Bluetooth Speaker displayed",true);
+		Assert.assertEquals(driver.getCurrentUrl().contains("products/mechanical-keyboard"), true);
+		Reporter.log("Product mechanical keyboard displayed",true);
 		order.getLogoutButton().click();
 		
 	}
